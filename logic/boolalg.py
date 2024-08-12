@@ -569,7 +569,6 @@ class BooleanFunction(Application, Boolean):
             return S.Zero
 
 
-
 # 定义自定义的布尔函数
 class BelongsRel(Boolean):
     def __new__(cls, x, y):
